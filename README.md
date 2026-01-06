@@ -1,7 +1,7 @@
 # 🛡️ Entra ID Automation Tool (Python & Microsoft Graph)
 
 ## 📋 The Problem
-Manually creating users in Microsoft Entra ID (Azure AD) is a slow, repetitive process and highly prone to human error—such as typos in email addresses or missing location data.
+Manually creating users in Microsoft Entra ID (Azure AD) is a slow, repetitive process and highly prone to human error, such as typos in email addresses or missing location data.
 
 ## 🚀 The Solution
 This tool automates the identity lifecycle management using **Python** and the **Microsoft Graph API**. It allows administrators to:
@@ -24,5 +24,6 @@ This tool automates the identity lifecycle management using **Python** and the *
 3. Run the script:
    ```bash
    python identity_tool.py
+   ```
 
-   ![Lab Success](assets/success_run.png)
+![Lab Success](assets/success_run.png)
