@@ -1,4 +1,7 @@
-[2026-01-06 23:51:52] PROCESS STARTED. Dry Run: True
-[2026-01-06 23:51:52] ✅ Ready to create: Chidi Azikiwe at NG
-[2026-01-06 23:51:52] ⚠️ [SKIP] Missing email for: Amina Bello
-[2026-01-06 23:51:52] ✅ Ready to create: Oluwatobi Ade at NG
+[2026-01-09 00:17:23] SESSION START: Live Cloud Integration.
+[2026-01-09 00:17:28] ✅ SUCCESS: Chidi Azikiwe created in Entra ID.
+[2026-01-09 00:17:28] ✅ SUCCESS: Amina Bello created in Entra ID.
+[2026-01-09 00:17:29] ✅ SUCCESS: Oluwatobi Ade created in Entra ID.
+[2026-01-09 00:17:29] ✅ SUCCESS: Nneka Okoro created in Entra ID.
+[2026-01-09 00:17:30] ✅ SUCCESS: Emeka Eze created in Entra ID.
+[2026-01-09 00:17:30] ⚠️ [SKIP] Invalid data for: Invalid User
