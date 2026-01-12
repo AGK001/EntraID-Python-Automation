@@ -18,6 +18,13 @@ This project is designed to integrate with a **Zero Trust** framework:
 1. **Dynamic Membership (ABAC):** Automated user placement in security groups based on `usageLocation` attributes.
 2. **Conditional Access:** Real-time enforcement of Multi-Factor Authentication (MFA) for the provisioned identities.
 
+## 🌐 Future-Proofing with Global Secure Access (GSA)
+While this tool automates the Identity Lifecycle, the infrastructure is designed to integrate with **Microsoft Entra Global Secure Access (SSE)**.
+
+* **Zero Trust Network Access (ZTNA):** Provisioned identities are compatible with **Private Access** profiles, allowing for the replacement of legacy VPNs with identity-centric perimeters.
+* **Unified Security Fabric:** By leveraging **Internet Access** and **Conditional Access** signals, the identities managed by this tool are protected against malicious web traffic and unauthorized SaaS access at the source.
+* **Traffic Visibility:** Automation success is verifiable via **GSA Traffic Logs**, providing an end-to-end audit trail from local script execution to cloud network egress.
+
 ## 🛠️ Implementation & Usage
 1. **Prerequisites:** Python 3.9+, Microsoft Entra ID Tenant.
 2. **Configuration:** Define IDs and Secrets in `config.py` (Secured via `.gitignore`).
