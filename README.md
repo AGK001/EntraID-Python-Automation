@@ -65,6 +65,7 @@ The "Identity Jigsaw" in action: The first image demonstrates successful API-dri
 
 ### 2. Infrastructure as Code: Dynamic Membership
 Proof of Attribute-Based Access Control (ABAC) logic correctly grouping users by location. Users created with a location of 'NG' were automatically added to the Nigeria Security Group.
+
 ![Dynamic Group Rules](assets/infra-dynamic-membership-rules.png)
 
 ### 3. Security Enforcement: Zero Trust Gatekeeping
