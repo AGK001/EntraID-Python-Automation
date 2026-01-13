@@ -75,4 +75,5 @@ A Conditional Access policy in 'Report-only' mode, targeting the dynamically cre
 
 ### 4. Operational Logging & Audit Trail
 Timestamped logs ensuring every cloud operation is recorded for compliance and troubleshooting.
+
 ![Audit Logs](assets/compliance-audit-logs.png)
