@@ -70,6 +70,7 @@ Proof of Attribute-Based Access Control (ABAC) logic correctly grouping users by
 
 ### 3. Security Enforcement: Zero Trust Gatekeeping
 A Conditional Access policy in 'Report-only' mode, targeting the dynamically created group to enforce MFA requirements.
+
 ![CA Policy](assets/security-conditional-access-mfa.png)
 
 ### 4. Operational Logging & Audit Trail
