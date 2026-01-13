@@ -58,6 +58,7 @@ The infrastructure is designed to integrate with **Microsoft Entra Global Secure
 
 ### 1. Automated Lifecycle & Audit Success
 The "Identity Jigsaw" in action: The first image demonstrates successful API-driven provisioning, while the second shows the automated MFA compliance report identifying registered vs. non-compliant users.
+
 ![Automation Success](assets/automation-lifecycle-success.png)
 
 ![MFA Compliance Audit](assets/compliance-mfa-audit-report.png)
