@@ -95,4 +95,5 @@ Timestamped logs ensuring every cloud operation is recorded for compliance and t
 Proof of the toolkit detecting and reacting to a real-world threat. The first image shows the `risk_tracker.py` identifying a user flagged for "Anonymous IP" access via Tor, while the second image displays the corresponding Entra ID Protection dashboard confirming the "High Risk" state.
 
 ![Risk Tracker Output](assets/risky-user-output.png)
+
 ![Entra Identity Protection Dashboard](assets/compliance-identity-protection-risk.png)
