@@ -31,6 +31,13 @@ This module shifts the toolkit into "Active Defense," utilizing Entra Identity P
 
 ---
 
+## 🔐 Identity & Access Logic: Permission Scoping
+To maintain the Principle of Least Privilege (PoLP), this toolkit distinguishes between two critical Graph API permission types:
+* **Delegated Permissions:** Used for user-centric actions where a user is present. The app acts *on behalf of* the signed-in user (e.g., a user checking their own profile).
+* **Application Permissions:** Utilized by this toolkit's "Daemons" (background services). The app acts *without* a signed-in user, accessing data directly via a Service Principal. This is essential for enterprise-wide auditing (e.g., scanning all users for MFA compliance).
+
+---
+
 ## ⚙️ Infrastructure & Security Architecture
 This toolkit is designed to function within a **Zero Trust** framework:
 1. **Dynamic Membership (ABAC):** Automated user placement in security groups based on `usageLocation` attributes.
