@@ -23,6 +23,12 @@ Building on the initial provisioning tool, this module shifts from "Identity Cre
 * **Compliance Reporting:** Generates a real-time status report in the terminal, identifying non-compliant users who have yet to fulfill MFA requirements.
 * **High-Privilege Security:** Leverages the `UserAuthenticationMethod.Read.All` permission scope, secured via a non-interactive Service Principal for background execution.
 
+### 🔹 Feature 3: Adaptive Risk Monitoring (`risk_tracker.py`)
+This module shifts the toolkit into "Active Defense," utilizing Entra Identity Protection to detect and report on identity-driven threats.
+* **Automated Risk Tracking:** Queries the `identityProtection/riskyUsers` Graph API endpoint to identify accounts with elevated risk levels (Medium/High).
+* **Threat Intelligence Integration:** Detects real-time anomalies such as "Anonymous IP Address" (Tor Browser/VPN) and "Unfamiliar Sign-in Properties."
+* **Security Forensics:** Provides granular insights into the 'Risk State' and 'Risk Level' of every identity in the tenant for rapid incident response.
+
 ---
 
 ## ⚙️ Infrastructure & Security Architecture
