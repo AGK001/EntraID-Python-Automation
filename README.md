@@ -27,7 +27,8 @@ Building on the initial provisioning tool, this module shifts from "Identity Cre
 This module shifts the toolkit into "Active Defense," utilizing Entra Identity Protection to detect and report on identity-driven threats.
 * **Automated Risk Tracking:** Queries the `identityProtection/riskyUsers` Graph API endpoint to identify accounts with elevated risk levels (Medium/High).
 * **Threat Intelligence Integration:** Detects real-time anomalies such as "Anonymous IP Address" (Tor Browser/VPN) and "Unfamiliar Sign-in Properties."
-* **Security Forensics:** Provides granular insights into the 'Risk State' and 'Risk Level' of every identity in the tenant for rapid incident response.
+* **Forensic Deep-Dive:** Refactored to handle nested JSON data, specifically parsing the `riskDetail` enumeration to provide the exact reason behind an identity threat.
+* **Security Reporting:** Generates a structured, tabular report in the terminal for rapid security audit and incident response.
 
 ---
 
@@ -92,8 +93,10 @@ Timestamped logs ensuring every cloud operation is recorded for compliance and t
 ![Audit Logs](assets/compliance-audit-logs.png)
 
 ### 5. Adaptive Security: Risk-Based Enforcement
-Proof of the toolkit detecting and reacting to a real-world threat. The first image shows the `risk_tracker.py` identifying a user flagged for "Anonymous IP" access via Tor, while the second image displays the corresponding Entra ID Protection dashboard confirming the "High Risk" state.
+Proof of the toolkit detecting and reacting to a real-world threat. The first image shows the `risk_tracker.py` identifying a user flagged for "Anonymous IP" access via Tor, while the second image displays the corresponding Entra ID Protection dashboard confirming the "High Risk" state. The last is a forensic report parsing the specific risk detail.
 
 ![Risk Tracker Output](assets/risky-user-output.png)
 
 ![Entra Identity Protection Dashboard](assets/compliance-identity-protection-risk.png)
+
+![Forensic Report Parsing Specific Risk Detail](assets/risk-tracker-forensic-report.png)
