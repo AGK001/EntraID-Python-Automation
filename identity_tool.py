@@ -1,3 +1,11 @@
+"""
+Entra ID Lifecycle Automation: Bulk Provisioning Tool
+Description: Standardizes identity creation by transitioning from manual portal 
+             entry to a validated, CSV-driven automation flow via Microsoft Graph.
+Engineer: Ejike Etolue (January 2026)
+SC-300 Objective: Plan and implement an identity management strategy
+"""
+
 import csv
 import asyncio
 import config
